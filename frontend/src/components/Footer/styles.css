@@ -1,0 +1,22 @@
+footer {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: #5271ff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer span {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .6px;
+}
+footer .icons {
+    display: flex;
+    justify-content: space-evenly;
+}
