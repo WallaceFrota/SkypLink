@@ -1,0 +1,32 @@
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 100px;
+    background-color: #5271ff;
+}
+.page-header img {
+    width: 126px;
+    height: 80px;
+}
+.page-header h2 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 700px) {
+    .page-header {
+        padding: 0 80px;
+    }
+    .page-header h2 {
+        font-size: 24px;
+    }
+    .page-header img {
+        width: 166px;
+        height: 120px;
+    }
+}
