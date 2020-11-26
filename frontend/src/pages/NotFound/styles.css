@@ -1,0 +1,19 @@
+#not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#not-found-container img {
+    width: 300px;
+    height: 200px;
+}
+#not-found-container h2 {
+    font-size: 28px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+}
