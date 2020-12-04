@@ -8,9 +8,15 @@ export default function Footer() {
             <span>FrotaDev - Software House</span>
             
             <div className="icons">
-                <FiInstagram color="#fff" size={26}/>
-                <FiLinkedin color="#fff" size={26}/>
-                <FiGithub color="#fff" size={26}/>
+                <a href="https://instagram.com/frota.dev" target="_blank">
+                    <FiInstagram color="#fff" size={26}/>
+                </a>
+                <a href="https://www.linkedin.com/in/wallacefrota" target="_blank">
+                    <FiLinkedin color="#fff" size={26}/>
+                </a>
+                <a href="https://github.com/WallaceFrota" target="_blank">
+                    <FiGithub color="#fff" size={26}/>
+                </a>
             </div>
         </footer>
     )
