@@ -1,0 +1,23 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.page-container .container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.container-content img {
+    width: 220px;
+    height: 160px;
+}
+.container-content p {
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 12px;
+}
