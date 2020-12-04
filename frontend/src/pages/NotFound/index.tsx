@@ -1,7 +1,8 @@
 import React from 'react';
 
 import imageNotFound from '../../images/stats.gif'
-import './styles.css'
+import './styles.css';
+
 export default function NotFound() {
     return (
         <div id="not-found-container">
