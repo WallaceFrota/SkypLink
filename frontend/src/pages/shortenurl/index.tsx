@@ -70,7 +70,7 @@ function ShortenUrl() {
                                 />
                                 
                                 <button type="submit">
-                                    <span>Encurtar</span> 
+                                    <span>Shorten</span> 
                                     <FiLink color="#fff" size={26} />
                                 </button>
                             </form>
